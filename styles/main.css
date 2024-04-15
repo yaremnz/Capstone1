@@ -1,7 +1,9 @@
 body {
     font-size: 3vw;
     background-color: lavender;
-    color: pink
+    color: pink;
+    background-image: url(../images/background.jpg_large);
+    background-repeat: no;
 
 }
 .store .content {
@@ -23,5 +25,21 @@ body {
 }
 .card-text {
     flex-grow: 3;
-    /* min-heigth: 12rem; */
-    }
+}
+.nav {
+     
+    font-size: 30px;
+    background-color: white;
+}
+.nav-link {
+    color: pink;
+}
+a.nav-link:hover {
+    color: fuchsia;
+}
+.heading {
+    text-align: left;
+}
+.containter {
+    box-sizing: border-box;
+}
