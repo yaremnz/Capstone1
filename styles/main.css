@@ -4,7 +4,6 @@ body {
     color: pink;
     background-image: url(../images/background.jpg_large);
     background-repeat: no;
-
 }
 .store .content {
     display: flex;
@@ -30,6 +29,8 @@ body {
      
     font-size: 30px;
     background-color: white;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .nav-link {
     color: pink;
@@ -42,4 +43,31 @@ a.nav-link:hover {
 }
 .containter {
     box-sizing: border-box;
+}
+.radio {
+    color:lavender;
+    font-size: 40%;
+}
+.star {
+	position: fixed;
+	pointer-events: none;
+}
+
+.star:before, .star:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: '\2726';
+	font-size: 9px;
+}
+
+.star:before {
+	color: transparent;
+	text-shadow: 0 0 3px rgb(250, 250, 174);
+}
+
+.star:after {
+	background: yellow;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }

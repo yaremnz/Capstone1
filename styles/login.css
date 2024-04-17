@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    height: 1000vh;
+    font-size: 35px;
+    background-color: lavender;
+    color: pink;
+    background-image: url(../images/background.jpg_large);
+    background-repeat: no;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header
+{
+    background-color: white;
+    color:pink ;
+    padding: 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    padding: 10 px 0;
+    background-color: white;
+    text-align:center ;
+}
+.navbar h1{
+    margin: 0;
+    margin-right: auto;
+}
+.navbar nav ul{
+    list-style: none;
+    padding: 0;
+    margin:0;
+    display: flex;
+}
+.nav-item{
+    margin-left: 10px;
+}
+
+.nav-link {
+    color: pink;
+}
+a.nav-link:hover {
+    color: fuchsia;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.username{
+    width: 400px;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid pink;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: block;
+    box-shadow: 0 0 10px rgba(255,192,203);
+    align-items: center;
+
+}
+.password {
+    width: 400px;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid pink;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: block;
+    box-shadow: 0 0 10px rgba(255,192,203);
+    align-items: center;
+}
