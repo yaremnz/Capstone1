@@ -6,6 +6,7 @@ body {
     background-image: url(../images/background.jpg_large);
     background-repeat: no;
 }
+
 header {
     background-color: white;
     color:pink ;
@@ -39,42 +40,30 @@ header {
 .nav-link {
     color: pink;
 }
-a.nav-link:hover {
-    color: fuchsia;
+.store .content {
+    display: flex;
+    justify-content: space-around;
 }
-.heading {
-    text-align: left;
-    padding: 20px;
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20rem;
+    max-height: 35rem;
+    margin-top: 30px;
+    background-color: peachpuff;
 }
-.containter {
-    box-sizing: border-box;
+.card-img-top {
+    height: 18rem;
+    width: 19.9rem;
+    object-fit: cover;
 }
-.radio {
-    color:lavender;
-    font-size: 40%;
+.card > * {
+    flex-grow: 1;
 }
-.star {
-	position: fixed;
-	pointer-events: none;
-}
-
-.star:before, .star:after {
-	position: absolute;
-	top: 0;
-	left: 0;
-	content: '\2726';
-	font-size: 9px;
-}
-
-.star:before {
-	color: transparent;
-	text-shadow: 0 0 3px rgb(250, 250, 174);
-}
-
-.star:after {
-	background: yellow;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+.card-text {
+    flex-grow: 3;
+    font-size: 28px;
 }
 .logo {
     width: 60px;

@@ -1,0 +1,46 @@
+.username, .email{
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid pink;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: block;
+    box-shadow: 0 0 10px rgba(255,192,203);
+    align-items: center;
+    font-size: 30px;
+
+}
+.password, .password2 {
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid pink;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: block;
+    box-shadow: 0 0 10px rgba(255,192,203);
+    align-items: center;
+    font-size: 30px;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    background-color: whitesmoke;
+    background: transparent;
+    border: 2px solid rgba(219, 20, 176, 0.2);
+    backdrop-filter: blur(8px);
+    text-align: center;
+}
+.User1 {
+    font-size: 30px;
+}
+.logo {
+    width: 60px;
+}

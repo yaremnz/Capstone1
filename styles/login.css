@@ -1,43 +1,36 @@
 body {
     margin: 0;
-    height: 1000vh;
     font-size: 35px;
     background-color: lavender;
     color: pink;
     background-image: url(../images/background.jpg_large);
     background-repeat: no;
-    justify-content: center;
-    align-items: center;
 
 }
 
-header
-{
-    background-color: white;
-    color:pink ;
-    padding: 20px;
-}
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 30px;
-    padding: 10 px 0;
     background-color: white;
     text-align:center ;
 }
 .navbar h1{
     margin: 0;
     margin-right: auto;
+    color: pink;
 }
 .navbar nav ul{
     list-style: none;
     padding: 0;
     margin:0;
-    display: flex;
+    display:  flex;
+    margin-right: 10px;
 }
 .nav-item{
-    margin-left: 10px;
+    margin-left: 20px;
+    
 }
 
 .nav-link {
@@ -57,11 +50,14 @@ a.nav-link:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 100%;
+    width: 450px;
     margin: 0 auto;
     padding: 20px;
     border: 2px solid #ccc;
     background-color: whitesmoke;
+    background: transparent;
+    border: 2px solid rgba(219, 20, 176, 0.2);
+    backdrop-filter: blur(8px);
     text-align: center;
 }
 .username{
@@ -86,4 +82,33 @@ a.nav-link:hover {
     display: block;
     box-shadow: 0 0 10px rgba(255,192,203);
     align-items: center;
+}
+.star {
+	position: fixed;
+	pointer-events: none;
+}
+
+.star:before, .star:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: '\2726';
+	font-size: 9px;
+}
+
+.star:before {
+	color: transparent;
+	text-shadow: 0 0 3px rgb(250, 250, 174);
+}
+
+.star:after {
+	background: yellow;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.containter, h1 {
+    color:seashell;
+}
+.logo {
+    width: 60px;
 }
