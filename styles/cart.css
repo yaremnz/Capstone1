@@ -1,10 +1,14 @@
-.table {
+.content {
     width: 50%;
     margin: 25%;
     margin-top: 70px;
-
 }
-.table, th {
-    color: pink;
-
+.content th, th {
+    background-color: rgb(253, 219, 225);
+    padding-right: 15px;
+}
+.content td, td{
+    background-color: rgb(215, 215, 253);
+    border: 2px solid fuchsia;
+    border-style: dotted;
 }
