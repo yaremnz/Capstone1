@@ -1,0 +1,10 @@
+.table {
+    width: 50%;
+    margin: 25%;
+    margin-top: 70px;
+
+}
+.table, th {
+    color: pink;
+
+}

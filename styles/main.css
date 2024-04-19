@@ -1,6 +1,5 @@
 body { 
-    margin: 0;
-    font-size: 35px;
+    
     background-color: lavender;
     color: pink;
     background-image: url(../images/background.jpg_large);
@@ -49,10 +48,6 @@ a.nav-link:hover {
 .containter {
     box-sizing: border-box;
 }
-.radio {
-    color:lavender;
-    font-size: 40%;
-}
 .star {
 	position: fixed;
 	pointer-events: none;
@@ -78,4 +73,54 @@ a.nav-link:hover {
 }
 .logo {
     width: 60px;
+}
+.col-lg-6 {
+    font-size: 30px;
+    margin: 30px;
+    text-shadow: 1px 1px white;
+    width: 50%
+
+}
+.col-lg-4 {
+    display:flexbox;
+    content: center;
+    position: absolute; right: 15%; top: 15%;
+    justify-content: left;
+    padding-bottom: 0;
+    width: 29rem;
+    float: right;
+    border-radius: 1.5rem;
+}
+.contact{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15px;
+    padding: 3rem;
+    margin-top: 2rem;
+    width: 20%;
+    content: center;
+    position: absolute; right: 17%; bottom:15%;
+    background-color: rgb(252, 182, 193);
+    border: 2px dotted rgb(252, 182, 193);
+}
+
+.carousel-inner {
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 3%;
+    margin-left: 40%;
+}
+.carousel-item
+{
+    justify-content: center;
+}
+.d-block{
+    height: 400px;
+    width: 400px;
+}
+p1, p2, ul {
+    font-size: 30px;
+    color:rgb(219, 70, 94);
+    text-shadow: 1px 1px pink;
+    word-wrap: break-word;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
