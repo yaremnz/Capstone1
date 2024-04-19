@@ -23,4 +23,4 @@ On the Store page I did not do anything "interestin" but I did spend quite a bit
 ##Cart Page
 This page shows users what they have added to their cart to purchase. 
 I did some basic css here. Making someone of the bordereds dotted with a different color. 
-<img alt="Cart Page" width=100%" src="./images/cartpage.PNG">
+<img alt="Cart Page" width="100%" src="./images/cartpage.PNG">
