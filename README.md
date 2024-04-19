@@ -13,7 +13,7 @@ An interesting thing on this page was the added backdrop filter. I made it trans
 ##Register Page
 This page allows users to sign up for an account. 
 As I did with the Log in page I added a backdrop filter. I made it transparent while also have a blur behind it.
-<img alt="Register Page" width="100%" src="./images/resisterpage.PNG" >
+<img alt="Register Page" width="100%" src="./images/regsisterpage.PNG" >
 
 ##Store Page
 This page showcases some of the items the store sells. 
