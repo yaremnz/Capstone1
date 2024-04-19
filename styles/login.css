@@ -8,6 +8,12 @@ body {
 
 }
 
+header {
+    background-color: white;
+    color:pink ;
+    
+  
+}
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -27,17 +33,11 @@ body {
     margin:0;
     display:  flex;
     margin-right: 10px;
+    text-shadow: 1px 1px pink
 }
 .nav-item{
     margin-left: 20px;
     
-}
-
-.nav-link {
-    color: pink;
-}
-a.nav-link:hover {
-    color: fuchsia;
 }
 .content{
     display: flex;
